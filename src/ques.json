@@ -1,0 +1,1442 @@
+[
+  {
+    "id": 1,
+    "week": 1,
+    "question": "Which of the following best represents the meaning of resource pooling in cloud computing?",
+    "options": [
+      "Every customer receives a permanently dedicated physical server.",
+      "Computing resources are dynamically assigned to multiple customers using a shared infrastructure.",
+      "Resources can only be accessed from a local network.",
+      "Users must manually allocate hardware before using cloud services"
+    ],
+    "answer": "Computing resources are dynamically assigned to multiple customers using a shared infrastructure."
+  },
+  {
+    "id": 2,
+    "week": 1,
+    "question": "A startup rents virtual servers on Amazon EC2. The team installs and patches its own operating system, configures the web server, and manages the runtime and applications itself. The provider supplies only the virtualized compute, storage, and networking. This is best classified as:",
+    "options": [
+      "SaaS",
+      "PaaS",
+      "IaaS",
+      "FaaS"
+    ],
+    "answer": "IaaS"
+  },
+  {
+    "id": 3,
+    "week": 1,
+    "question": "Which deployment model allows an organization to maintain cloud infrastructure exclusively for its own use, either on-premises or hosted by a third party?",
+    "options": [
+      "Public Cloud",
+      "Hybrid Cloud",
+      "Community Cloud",
+      "Private Cloud"
+    ],
+    "answer": "Private Cloud"
+  },
+  {
+    "id": 4,
+    "week": 1,
+    "question": "Virtualization technology allows multiple virtual machines (VMs) to run on a single physical system or on a cluster of physical systems. Which of the following statements is the MOST accurate?",
+    "options": [
+      "Each VM always shares the same operating system kernel with the host OS.",
+      "Multiple VMs can run different operating systems on the same physical machine simultaneously.",
+      "Virtualization is only possible in cloud computing environments.",
+      "Virtualization prevents resource overcommitment on the host system."
+    ],
+    "answer": "Multiple VMs can run different operating systems on the same physical machine simultaneously."
+  },
+  {
+    "id": 5,
+    "week": 1,
+    "question": "Consider the following statements about distributed systems (DS): (i) DS can improve scalability by adding more nodes to the system. (ii) DS can increase fault tolerance through data and service replication. (iii) DS guarantees lower latency for every single operation compared to a centralized system. Choose the MOST APPROPRIATE option:",
+    "options": [
+      "(i) and (ii)",
+      "Only (iii)",
+      "(i) and (iii)",
+      "(i), (ii), and (iii)"
+    ],
+    "answer": "(i) and (ii)"
+  },
+  {
+    "id": 6,
+    "week": 1,
+    "question": "The combination of Service-Oriented Architecture (SOA) and Cloud Computing led to a paradigm where almost any IT capability can be delivered as a network-accessible service. This is often referred to as:",
+    "options": [
+      "FTP",
+      "SNTP",
+      "XaaS",
+      "FaaS"
+    ],
+    "answer": "XaaS"
+  },
+  {
+    "id": 7,
+    "week": 1,
+    "question": "Which of the following correctly describes a Type-2 (hosted) hypervisor?",
+    "options": [
+      "It runs directly on the physical hardware without any underlying operating system.",
+      "It runs as an application on top of a host operating system.",
+      "It always provides lower virtualization overhead than a Type-1 hypervisor.",
+      "It cannot run more than one virtual machine at a time."
+    ],
+    "answer": "It runs as an application on top of a host operating system."
+  },
+  {
+    "id": 8,
+    "week": 1,
+    "question": "Which of the following are advantages of Platform-as-a-Service (PaaS)? (i) Developers can focus primarily on application development. (ii) Automatic software updates for the underlying platform. (iii) Complete control over physical server hardware. (iv) Faster application deployment.",
+    "options": [
+      "(i), (ii), and (iv)",
+      "(ii) and (iii)",
+      "(i) and (iii)",
+      "(i), (ii), (iii), and (iv)"
+    ],
+    "answer": "(i), (ii), and (iv)"
+  },
+  {
+    "id": 9,
+    "week": 1,
+    "question": "Which of the following services is most likely to be classified as Infrastructure as a Service (IaaS)?",
+    "options": [
+      "Microsoft Word Online",
+      "Amazon EC2 Virtual Machines",
+      "Google Docs",
+      "Salesforce CRM"
+    ],
+    "answer": "Amazon EC2 Virtual Machines"
+  },
+  {
+    "id": 10,
+    "week": 1,
+    "question": "A __________ is a form of distributed computing in which a large number of geographically dispersed and often heterogeneous resources across multiple administrative domains are loosely coupled and coordinated to work together on a common, large-scale task.",
+    "options": [
+      "Cluster",
+      "Grid",
+      "Node",
+      "Hypervisor"
+    ],
+    "answer": "Grid"
+  },
+  {
+    "id": 11,
+    "week": 2,
+    "question": "A virtualization solution requires the guest operating system to invoke hypercalls instead of executing certain privileged instructions directly. This approach is known as:",
+    "options": [
+      "Full Virtualization",
+      "Hardware-assisted Virtualization",
+      "Para-virtualization",
+      "Containerization"
+    ],
+    "answer": "Para-virtualization"
+  },
+  {
+    "id": 12,
+    "week": 2,
+    "question": "Which of the following is a key characteristic of full (hardware-assisted) virtualization, as opposed to para-virtualization?",
+    "options": [
+      "Guest OS must be modified to issue hypercalls to the hypervisor.",
+      "Guest OS runs unmodified, with the hypervisor and CPU extensions handling privileged instructions.",
+      "Guest and host must share the same operating system kernel.",
+      "No hypervisor is involved at all."
+    ],
+    "answer": "Guest OS runs unmodified, with the hypervisor and CPU extensions handling privileged instructions."
+  },
+  {
+    "id": 13,
+    "week": 2,
+    "question": "Which statement about a public cloud is MOST accurate?",
+    "options": [
+      "It is dedicated to, and controlled by, a single organization behind its own firewall.",
+      "Its infrastructure is provisioned for open use by the general public and is owned and operated by a cloud service provider.",
+      "It is shared only among organizations that have common regulatory concerns.",
+      "It always guarantees stronger data isolation than a private cloud."
+    ],
+    "answer": "Its infrastructure is provisioned for open use by the general public and is owned and operated by a cloud service provider."
+  },
+  {
+    "id": 14,
+    "week": 2,
+    "question": "An application must repeatedly navigate, randomly access, and modify elements of a moderately sized XML document held in memory. Which XML parser API is MOST appropriate?",
+    "options": [
+      "SAX (push-based, event-driven, forward-only)",
+      "StAX (pull-based, event-driven, forward-only)",
+      "DOM (builds an in-memory tree allowing random access and modification)",
+      "None; an XML document cannot be modified once parsed"
+    ],
+    "answer": "DOM (builds an in-memory tree allowing random access and modification)"
+  },
+  {
+    "id": 15,
+    "week": 2,
+    "question": "Which statement correctly distinguishes a 'host OS', a 'guest OS', and a 'hypervisor'?",
+    "options": [
+      "The host OS runs inside a VM, the guest OS runs on bare metal, and the hypervisor is a user application.",
+      "The hypervisor creates and manages VMs; each guest OS runs inside a VM; and for a Type-2 hypervisor, the host OS is the OS on which the hypervisor runs.",
+      "The guest OS and host OS are always identical copies of the same operating system.",
+      "The hypervisor is simply the hardware layer located beneath the host OS."
+    ],
+    "answer": "The hypervisor creates and manages VMs; each guest OS runs inside a VM; and for a Type-2 hypervisor, the host OS is the OS on which the hypervisor runs."
+  },
+  {
+    "id": 16,
+    "week": 2,
+    "question": "An enterprise migrates its private cloud to a third-party managed data center. Which of the following concerns should be evaluated? (i) Service availability guarantees (SLAs) (ii) Compliance with data protection regulations (iii) Network latency between users and cloud resources",
+    "options": [
+      "Only (i)",
+      "(i) and (ii)",
+      "(ii) and (iii)",
+      "(i), (ii), and (iii)"
+    ],
+    "answer": "(i), (ii), and (iii)"
+  },
+  {
+    "id": 17,
+    "week": 2,
+    "question": "In the traditional web services stack, which technology is used to describe a web service's interface — its operations, input/output messages, and how to invoke it?",
+    "options": [
+      "UDDI",
+      "WSDL",
+      "SMTP",
+      "HTML"
+    ],
+    "answer": "WSDL"
+  },
+  {
+    "id": 18,
+    "week": 2,
+    "question": "Traditional SOAP-based web services provide which of the following capabilities? (i) Platform-independent communication (ii) XML-based message exchange (iii) Automatic service discovery through UDDI (iv) Guaranteed microsecond-level response latency",
+    "options": [
+      "(i), (ii), and (iii)",
+      "(ii) and (iv)",
+      "Only (i)",
+      "All of the above"
+    ],
+    "answer": "(i), (ii), and (iii)"
+  },
+  {
+    "id": 19,
+    "week": 2,
+    "question": "Which of the following problems are effectively addressed by traditional web services, and which are NOT? (i) Passing through firewalls using standard HTTP/HTTPS (ii) Enabling interoperability across different programming languages and operating systems (iii) Ultra-low-latency, real-time inter-service communication (iv) Service discovery through registries like UDDI",
+    "options": [
+      "Only (i) and (ii) are addressed",
+      "(i), (ii), and (iv) are addressed; (iii) is NOT addressed",
+      "Only (ii) is addressed",
+      "All are addressed"
+    ],
+    "answer": "(i), (ii), and (iv) are addressed; (iii) is NOT addressed"
+  },
+  {
+    "id": 20,
+    "week": 2,
+    "question": "In the Service-Oriented Architecture (SOA) model, which set of operations correctly maps the interactions among the service provider, service registry, and service requestor?",
+    "options": [
+      "Publish (provider → registry), Find (requestor → registry), Bind (requestor → provider)",
+      "Publish (requestor → provider), Find (provider → registry), Bind (registry → requestor)",
+      "Bind (provider → registry), Publish (requestor → registry), Find (provider → requestor)",
+      "Find (provider → registry), Publish (requestor → registry), Bind (provider → provider)"
+    ],
+    "answer": "Publish (provider → registry), Find (requestor → registry), Bind (requestor → provider)"
+  },
+  {
+    "id": 21,
+    "week": 3,
+    "question": "Which of the following is least likely to be specified in an operational cloud Service Level Agreement(SLA)?",
+    "options": [
+      "Recovery Time Objective (RTO)",
+      "Exact encryption algorithm and key storage procedures",
+      "Mean Time To Repair (MTTR) for incidents",
+      "Penalty / credit calculation for downtime"
+    ],
+    "answer": "Exact encryption algorithm and key storage procedures"
+  },
+  {
+    "id": 22,
+    "week": 3,
+    "question": "A multilevel SLA generally consists of which of the following levels? (i) Corporate Level (ii) Customer Level (iii) Service Level",
+    "options": [
+      "Only (i)",
+      "(i) and (ii)",
+      "(ii) and (iii)",
+      "(i), (ii), and (iii)"
+    ],
+    "answer": "(i), (ii), and (iii)"
+  },
+  {
+    "id": 23,
+    "week": 3,
+    "question": "An enterprise signs a three-tier multilevel SLA with a cloud provider. However, the corporate-level SLA guarantees 95% uptime, the customer-level SLA specifies 98% uptime, and the service-level SLA guarantees 99.9% uptime. In case of a service disruption, which level of SLA is the provider LEGALLY BOUND to honor?",
+    "options": [
+      "Corporate-level SLA, as it's the broadest agreement",
+      "Customer-level SLA, as it's the middle ground",
+      "Service-level SLA, as it's the most specific agreement",
+      "The provider can choose the lowest applicable SLA"
+    ],
+    "answer": "Service-level SLA, as it's the most specific agreement"
+  },
+  {
+    "id": 24,
+    "week": 3,
+    "question": "Which pair of metrics is most directly used to quantify the reliability and recoverability commitments in a cloud SLA?",
+    "options": [
+      "Availability (uptime %) and Mean Time To Recovery (MTTR)",
+      "Lines of code and number of microservices",
+      "Number of employees and office locations",
+      "CPU clock speed and RAM size of the servers"
+    ],
+    "answer": "Availability (uptime %) and Mean Time To Recovery (MTTR)"
+  },
+  {
+    "id": 25,
+    "week": 3,
+    "question": "A cloud service guarantees 99.9% availability per 30-day month. What is the maximum allowable downtime in that month under the SLA? (Assume 30 days = 720 hours.)",
+    "options": [
+      "About 0.72 hours",
+      "About 7.2 hours",
+      "About 3.6 hours",
+      "About 72 minutes"
+    ],
+    "answer": "About 0.72 hours"
+  },
+  {
+    "id": 26,
+    "week": 3,
+    "question": "Which feature primarily enables a parallel database to process large analytical queries faster than a traditional database?",
+    "options": [
+      "Exclusive use of SQL",
+      "Distributed query execution across multiple computing nodes",
+      "Elimination of indexing",
+      "Storing all data in a single server"
+    ],
+    "answer": "Distributed query execution across multiple computing nodes"
+  },
+  {
+    "id": 27,
+    "week": 3,
+    "question": "You are building a fraud-detection pipeline that must flag suspicious transactions within a few hundred milliseconds as they arrive. The system must: • Ingest about 500,000 transactions per second • Detect and alert within sub-second latency • Apply per-transaction rules and short sliding-window aggregations • Which architectural choice is LEAST suitable?",
+    "options": [
+      "Apache Kafka feeding Apache Flink for continuous stream processing",
+      "Amazon Kinesis with a real-time stream-processing application",
+      "A nightly batch job on a data warehouse that scans the day's transactions",
+      "Apache Pulsar with a stream processor for windowed aggregation"
+    ],
+    "answer": "A nightly batch job on a data warehouse that scans the day's transactions"
+  },
+  {
+    "id": 28,
+    "week": 3,
+    "question": "A company stores petabytes of satellite imagery that must be processed in parallel by Spark clusters. Which storage system is most suitable?",
+    "options": [
+      "Local SSD attached to a single virtual machine",
+      "Object storage such as Amazon S3 or Google Cloud Storage",
+      "Relational database server",
+      "Client-side browser cache"
+    ],
+    "answer": "Object storage such as Amazon S3 or Google Cloud Storage"
+  },
+  {
+    "id": 29,
+    "week": 3,
+    "question": "A MapReduce job is designed to count word frequencies in 2 TB of text files. The mapper output is 1.5 TB (including overhead), and after the shuffle and sort phase, the data is 1.3 TB. During the reduce phase, a node runs out of disk space during the merge operation. Which of the following is the most likely cause and solution?",
+    "options": [
+      "The mapper logic is inefficient; rewrite the mapper function",
+      "The combiner phase didn't run; ensure combiner is explicitly configured to compress intermediate data locally",
+      "The shuffle and sort didn't deduplicate keys; increase the number of reducers",
+      "The network bandwidth is saturated; add more nodes to the cluster"
+    ],
+    "answer": "The combiner phase didn't run; ensure combiner is explicitly configured to compress intermediate data locally"
+  },
+  {
+    "id": 30,
+    "week": 3,
+    "question": "An OpenStack compute node contains 640 physical vCPUs. If the CPU allocation ratio is 5:1, what is the maximum number of virtual CPUs that may be allocated?",
+    "options": [
+      "3000",
+      "3200",
+      "3400",
+      "3500"
+    ],
+    "answer": "3200"
+  },
+  {
+    "id": 31,
+    "week": 4,
+    "question": "Which Azure SQL Database service tier separates compute and storage so that storage can automatically grow up to 100 TB without requiring application downtime?",
+    "options": [
+      "Basic",
+      "Business Critical",
+      "Hyperscale",
+      "Standard"
+    ],
+    "answer": "Hyperscale"
+  },
+  {
+    "id": 32,
+    "week": 4,
+    "question": "One company deploys two Azure Virtual Machines in different Availability Zones within the same Azure region. One data center experiences a complete power outage. Which statement is correct?",
+    "options": [
+      "Both VMs will become unavailable because they are in the same region.",
+      "The second VM can continue running because Availability Zones are isolated from each other.",
+      "Azure automatically moves the failed VM to another region.",
+      "Both VMs share the same cooling and networking infrastructure."
+    ],
+    "answer": "The second VM can continue running because Availability Zones are isolated from each other."
+  },
+  {
+    "id": 33,
+    "week": 4,
+    "question": "Which App Service pricing tier supports the highest number of deployment slots?",
+    "options": [
+      "Basic",
+      "Standard",
+      "Premium (P1v3 and higher)",
+      "Free"
+    ],
+    "answer": "Premium (P1v3 and higher)"
+  },
+  {
+    "id": 34,
+    "week": 4,
+    "question": "An administrator notices that users can still access an Azure App Service website using http://. Which App Service configuration should be enabled to prevent unencrypted access?",
+    "options": [
+      "Managed Identity",
+      "Always On",
+      "HTTPS Only",
+      "Deployment Slots"
+    ],
+    "answer": "HTTPS Only"
+  },
+  {
+    "id": 35,
+    "week": 4,
+    "question": "Which Google Cloud database service is designed specifically for structured relational data with global consistency and horizontal scalability?",
+    "options": [
+      "Firestore",
+      "Cloud SQL",
+      "Cloud Spanner",
+      "Memorystore"
+    ],
+    "answer": "Cloud Spanner"
+  },
+  {
+    "id": 36,
+    "week": 4,
+    "question": "A virtual machine requires an additional 100 GB persistent disk that should remain intact even after the VM is terminated. Which OpenStack service manages this storage?",
+    "options": [
+      "Nova",
+      "Swift",
+      "Cinder",
+      "Keystone"
+    ],
+    "answer": "Cinder"
+  },
+  {
+    "id": 37,
+    "week": 4,
+    "question": "Which statement correctly distinguishes GKE from Cloud Run?",
+    "options": [
+      "GKE only supports virtual machines.",
+      "Cloud Run requires users to manage Kubernetes clusters.",
+      "GKE manages Kubernetes clusters, while Cloud Run executes containers without requiring cluster management.",
+      "Both services require manual Kubernetes control plane management."
+    ],
+    "answer": "GKE manages Kubernetes clusters, while Cloud Run executes containers without requiring cluster management."
+  },
+  {
+    "id": 38,
+    "week": 4,
+    "question": "A company collects millions of IoT sensor events every minute. The data must be ingested in real time, stored in a scalable analytical warehouse, and visualized through interactive dashboards. Which GCP architecture best satisfies these requirements?",
+    "options": [
+      "Cloud SQL + Cloud Functions + Looker",
+      "Pub/Sub + BigQuery + Looker Studio",
+      "Firestore + Compute Engine + Bigtable",
+      "Cloud Storage + Memorystore + App Engine"
+    ],
+    "answer": "Pub/Sub + BigQuery + Looker Studio"
+  },
+  {
+    "id": 39,
+    "week": 4,
+    "question": "A DevOps engineer wants to route all production traffic to version v3 of an App Engine service. Which command is correct?",
+    "options": [
+      "gcloud app services set-traffic default --splits=v3=1",
+      "gcloud app deploy --traffic=v3",
+      "gcloud app versions promote v3",
+      "gcloud app services update v3"
+    ],
+    "answer": "gcloud app services set-traffic default --splits=v3=1"
+  },
+  {
+    "id": 40,
+    "week": 4,
+    "question": "Which OpenStack service is primarily responsible for routing tenant traffic between internal and external networks?",
+    "options": [
+      "Nova",
+      "Neutron",
+      "Keystone",
+      "Swift"
+    ],
+    "answer": "Neutron"
+  },
+  {
+    "id": 41,
+    "week": 5,
+    "question": "A cloud provider guarantees 99% availability. A customer's application operates 12 hours per day.What is the maximum allowable downtime during a 30-day month without violating the SLA?",
+    "options": [
+      "3.6 hours",
+      "6 hours",
+      "7.2 hours",
+      "9 hours"
+    ],
+    "answer": "3.6 hours"
+  },
+  {
+    "id": 42,
+    "week": 5,
+    "question": "A cloud server dynamically activates additional CPU cores to handle a sudden spike in user requests. What is the most likely impact on the server's power consumption?",
+    "options": [
+      "Power consumption decreases because the workload is distributed.",
+      "Power consumption remains unchanged since CPU frequency is fixed.",
+      "Power consumption increases as additional CPU cores become active.",
+      "Power consumption depends only on the amount of RAM used."
+    ],
+    "answer": "Power consumption increases as additional CPU cores become active."
+  },
+  {
+    "id": 43,
+    "week": 5,
+    "question": "Which cloud characteristic most directly helps organizations avoid large upfront hardware investments?",
+    "options": [
+      "Elastic scalability",
+      "Pay-as-you-go pricing",
+      "Fault tolerance",
+      "Multi-tenancy"
+    ],
+    "answer": "Pay-as-you-go pricing"
+  },
+  {
+    "id": 44,
+    "week": 5,
+    "question": "An HDFS cluster has a block size of 128 MB. A 700 MB input file is processed using MapReduce. Assuming one map task per HDFS block, how many map tasks are created?",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "answer": "6"
+  },
+  {
+    "id": 45,
+    "week": 5,
+    "question": "Which virtualization component is primarily responsible for creating and managing virtual machines?",
+    "options": [
+      "Operating System Kernel",
+      "Hypervisor",
+      "BIOS",
+      "Device Driver"
+    ],
+    "answer": "Hypervisor"
+  },
+  {
+    "id": 46,
+    "week": 5,
+    "question": "Which MapReduce component determines which Reducer receives a particular key?",
+    "options": [
+      "Combiner",
+      "Partitioner",
+      "RecordWriter",
+      "InputSplit"
+    ],
+    "answer": "Partitioner"
+  },
+  {
+    "id": 47,
+    "week": 5,
+    "question": "Which MapReduce component is optional and may execute zero, one, or multiple times?",
+    "options": [
+      "Mapper",
+      "Reducer",
+      "Combiner",
+      "RecordReader"
+    ],
+    "answer": "Combiner"
+  },
+  {
+    "id": 48,
+    "week": 5,
+    "question": "A cloud provider observes that many physical servers are running at only 15% CPU utilization. To reduce electricity costs, it migrates virtual machines onto fewer servers and powers off the idle hosts while ensuring that application performance remains within SLA limits. Which scheduling strategy is being applied?",
+    "options": [
+      "Round-Robin Scheduling",
+      "Energy-Aware Scheduling",
+      "First-Come-First-Serve Scheduling",
+      "Fair Scheduling"
+    ],
+    "answer": "Energy-Aware Scheduling"
+  },
+  {
+    "id": 49,
+    "week": 5,
+    "question": "Statement 1: Elasticity enables cloud users to increase or decrease resources according to workload demand. Statement 2: Elasticity helps organizations avoid paying for unused computing resources.",
+    "options": [
+      "Both statements are true.",
+      "Both statements are false.",
+      "Statement 1 is true and Statement 2 is false.",
+      "Statement 1 is false and Statement 2 is true."
+    ],
+    "answer": "Both statements are true."
+  },
+  {
+    "id": 50,
+    "week": 5,
+    "question": "Average demand = 75 units,Peak demand = 225 units,The cloud provider offers a utility premium of 2.8. Which statement is true?",
+    "options": [
+      "Cloud cost < Owning cost",
+      "Cloud cost > Owning cost",
+      "Both costs are equal",
+      "None of the above"
+    ],
+    "answer": "Cloud cost < Owning cost"
+  },
+  {
+    "id": 51,
+    "week": 6,
+    "question": "A database stores customer records in encrypted form. However, an administrator accidentally changes several account balances due to a software bug. Which security objective has failed?",
+    "options": [
+      "Confidentiality only",
+      "Integrity only",
+      "Availability only",
+      "Confidentiality and Availability"
+    ],
+    "answer": "Integrity only"
+  },
+  {
+    "id": 52,
+    "week": 6,
+    "question": "An employee logs into a fake VPN portal that perfectly imitates the company's official login page. Before any credentials are entered, which security property has already been compromised?",
+    "options": [
+      "Confidentiality",
+      "Integrity",
+      "Availability",
+      "Authenticity"
+    ],
+    "answer": "Authenticity"
+  },
+  {
+    "id": 53,
+    "week": 6,
+    "question": "Which of the following attacks is NOT considered a passive attack?",
+    "options": [
+      "Packet sniffing",
+      "Traffic analysis",
+      "Session hijacking",
+      "Network monitoring"
+    ],
+    "answer": "Session hijacking"
+  },
+  {
+    "id": 54,
+    "week": 6,
+    "question": "Which of the following attacks cannot directly modify the contents of transmitted data?",
+    "options": [
+      "Replay attack",
+      "Man-in-the-Middle attack",
+      "Eavesdropping",
+      "Masquerading"
+    ],
+    "answer": "Eavesdropping"
+  },
+  {
+    "id": 55,
+    "week": 6,
+    "question": "Which of the following best describes a Denial-of-Service (DoS) attack?",
+    "options": [
+      "An attacker secretly monitors network traffic without modifying it.",
+      "An attacker floods a server with excessive requests, making the service unavailable to legitimate users.",
+      "An attacker impersonates a legitimate user to gain unauthorized access.",
+      "An attacker modifies data during transmission between two communicating parties."
+    ],
+    "answer": "An attacker floods a server with excessive requests, making the service unavailable to legitimate users."
+  },
+  {
+    "id": 56,
+    "week": 6,
+    "question": "Which of the following activities is least likely to be considered part of the reconnaissance phase?",
+    "options": [
+      "Performing DNS enumeration to identify subdomains",
+      "Scanning the target to discover open ports and running services",
+      "Exploiting a buffer overflow vulnerability to gain administrator privileges",
+      "Searching public websites and social media for organizational information"
+    ],
+    "answer": "Exploiting a buffer overflow vulnerability to gain administrator privileges"
+  },
+  {
+    "id": 57,
+    "week": 6,
+    "question": "Statement I: Authentication determines whether a user is allowed to access a resource. Statement II: Authorization determines what actions an authenticated user is permitted to perform. Options:",
+    "options": [
+      "Statement I is TRUE and Statement II is FALSE.",
+      "Statement I is FALSE and Statement II is TRUE.",
+      "Both statements are TRUE.",
+      "Both statements are FALSE."
+    ],
+    "answer": "Statement I is FALSE and Statement II is TRUE."
+  },
+  {
+    "id": 58,
+    "week": 6,
+    "question": "A financial institution must install a custom Linux kernel module, configure firewall rules at the operating system level, and deploy proprietary database software. However, it does not want to purchase or maintain physical servers. Which cloud service model is most appropriate?",
+    "options": [
+      "SaaS",
+      "PaaS",
+      "IaaS",
+      "FaaS"
+    ],
+    "answer": "IaaS"
+  },
+  {
+    "id": 59,
+    "week": 6,
+    "question": "An organization discovers that backups of its confidential data are automatically replicated to another country without its knowledge. Which cloud security concern has been violated?",
+    "options": [
+      "Data Location",
+      "Recovery",
+      "Virtualization",
+      "Resource Pooling"
+    ],
+    "answer": "Data Location"
+  },
+  {
+    "id": 60,
+    "week": 6,
+    "question": "Which of the following cloud design practices is most effective in reducing vendor lock-in?",
+    "options": [
+      "Using provider-specific APIs whenever possible",
+      "Developing applications using open standards and portable technologies",
+      "Storing data only in proprietary database formats",
+      "Relying exclusively on managed proprietary services"
+    ],
+    "answer": "Developing applications using open standards and portable technologies"
+  },
+  {
+    "id": 61,
+    "week": 7,
+    "question": "Which of the following applications is least suitable for computation offloading to a remote cloud in Mobile Cloud Computing (MCC)?",
+    "options": [
+      "Image rendering requiring intensive GPU computation",
+      "Large-scale machine learning inference",
+      "Emergency collision avoidance requiring millisecond response",
+      "Video transcoding"
+    ],
+    "answer": "Emergency collision avoidance requiring millisecond response"
+  },
+  {
+    "id": 62,
+    "week": 7,
+    "question": "A cloud-based mobile application automatically allocates additional computing resources during a sudden surge in users and releases them when demand decreases. Which cloud characteristic is demonstrated?",
+    "options": [
+      "Resource pooling",
+      "Rapid elasticity",
+      "Location independence",
+      "Broad network access"
+    ],
+    "answer": "Rapid elasticity"
+  },
+  {
+    "id": 63,
+    "week": 7,
+    "question": "Dynamic computation offloading primarily aims to optimize which combination of objectives?",
+    "options": [
+      "Screen brightness and storage capacity",
+      "Execution time, energy consumption, and resource utilization",
+      "Camera quality and display refresh rate",
+      "Cloud subscription cost only"
+    ],
+    "answer": "Execution time, energy consumption, and resource utilization"
+  },
+  {
+    "id": 64,
+    "week": 7,
+    "question": "A mobile augmented reality application requires object recognition with an end-to-end response time below 20 ms. Which infrastructure is most appropriate?",
+    "options": [
+      "A geographically distant public cloud data center",
+      "A nearby cloudlet connected through a high-speed local network",
+      "Local storage only",
+      "An offline mobile application"
+    ],
+    "answer": "A nearby cloudlet connected through a high-speed local network"
+  },
+  {
+    "id": 65,
+    "week": 7,
+    "question": "A healthcare application stores patient records in the cloud. Which security requirement is most critical to ensure that unauthorized users cannot access sensitive medical information?",
+    "options": [
+      "Elasticity",
+      "Data confidentiality",
+      "Resource pooling",
+      "Load balancing"
+    ],
+    "answer": "Data confidentiality"
+  },
+  {
+    "id": 66,
+    "week": 7,
+    "question": "Which limitation of traditional cloud computing is primarily addressed by fog computing?",
+    "options": [
+      "Limited virtualization support",
+      "High network latency caused by distant cloud data centers",
+      "Lack of cloud storage",
+      "Insufficient computing power in cloud servers"
+    ],
+    "answer": "High network latency caused by distant cloud data centers"
+  },
+  {
+    "id": 67,
+    "week": 7,
+    "question": "Which statement about fog nodes is FALSE?",
+    "options": [
+      "They may perform filtering and aggregation of sensor data.",
+      "They are usually located close to IoT devices.",
+      "They permanently store all enterprise data.",
+      "They reduce communication with distant cloud servers."
+    ],
+    "answer": "They permanently store all enterprise data."
+  },
+  {
+    "id": 68,
+    "week": 7,
+    "question": "Statement 1: Geospatial Cloud Computing enables parallel processing of massive satellite imagery by distributing computation across multiple cloud nodes. Statement 2: Distributed storage and parallel processing frameworks reduce execution time for large geospatial datasets compared with a single desktop workstation.",
+    "options": [
+      "Both Statement 1 and Statement 2 are true, and Statement 2 is the correct explanation of Statement 1",
+      "Both Statement 1 and Statement 2 are true, but Statement 2 is not the correct explanation of Statement 1",
+      "Statement 1 is true, but Statement 2 is false",
+      "Statement 1 is false, but Statement 2 is true"
+    ],
+    "answer": "Both Statement 1 and Statement 2 are true, and Statement 2 is the correct explanation of Statement 1"
+  },
+  {
+    "id": 69,
+    "week": 7,
+    "question": "A cloud platform divides a large raster image into tiles for parallel processing. Which challenge must be carefully addressed to ensure accurate results?",
+    "options": [
+      "Screen resolution of client devices",
+      "Boundary effects between adjacent image tiles",
+      "Keyboard input latency",
+      "Number of GIS users"
+    ],
+    "answer": "Boundary effects between adjacent image tiles"
+  },
+  {
+    "id": 70,
+    "week": 7,
+    "question": "A wearable ECG sensor continuously streams a patient's heart signals. Which architecture is most appropriate to detect cardiac abnormalities within a few milliseconds?",
+    "options": [
+      "IoT sensors → Remote Cloud → Physician",
+      "IoT sensors → Fog/Edge Node → Cloud",
+      "IoT sensors → Local Storage → Weekly Upload",
+      "IoT sensors → FTP Server → Desktop GIS"
+    ],
+    "answer": "IoT sensors → Fog/Edge Node → Cloud"
+  },
+  {
+    "id": 71,
+    "week": 8,
+    "question": "Which command is used to remove a Docker image that is no longer required?",
+    "options": [
+      "docker rm",
+      "docker rmi",
+      "docker delete",
+      "docker remove"
+    ],
+    "answer": "docker rmi"
+  },
+  {
+    "id": 72,
+    "week": 8,
+    "question": "Which Docker command is primarily used to list all available Docker networks?",
+    "options": [
+      "docker network ls",
+      "docker network show",
+      "docker net ps",
+      "docker networks"
+    ],
+    "answer": "docker network ls"
+  },
+  {
+    "id": 73,
+    "week": 8,
+    "question": "Which of the following is the most accurate comparison between VMs and containers?",
+    "options": [
+      "VMs share the host kernel, while containers have separate kernels",
+      "Containers generally share the host kernel, while VMs virtualize hardware and run separate guest OS kernels",
+      "Both always require separate guest operating systems",
+      "Containers require more resources than VMs because they include a complete OS"
+    ],
+    "answer": "Containers generally share the host kernel, while VMs virtualize hardware and run separate guest OS kernels"
+  },
+  {
+    "id": 74,
+    "week": 8,
+    "question": "What is the primary role of etcd in a Kubernetes cluster?",
+    "options": [
+      "Running application containers",
+      "Storing Kubernetes cluster state and configuration data",
+      "Scheduling Pods onto Nodes",
+      "Providing container images"
+    ],
+    "answer": "Storing Kubernetes cluster state and configuration data"
+  },
+  {
+    "id": 75,
+    "week": 8,
+    "question": "Which of the following is an example of a Type 2 (hosted) hypervisor?",
+    "options": [
+      "VMware ESXi",
+      "Xen",
+      "Oracle VirtualBox",
+      "Microsoft Hyper-V Server"
+    ],
+    "answer": "Oracle VirtualBox"
+  },
+  {
+    "id": 76,
+    "week": 8,
+    "question": "A cloud data center has 100 physical servers, but only 40 are heavily utilized while the remaining servers operate at very low utilization. Which strategy would MOST effectively reduce energy consumption?",
+    "options": [
+      "Distribute VMs equally across all 100 servers",
+      "Consolidate VMs onto fewer servers and switch idle servers to a low-power state",
+      "Increase CPU frequency on all servers",
+      "Duplicate every VM across multiple servers"
+    ],
+    "answer": "Consolidate VMs onto fewer servers and switch idle servers to a low-power state"
+  },
+  {
+    "id": 77,
+    "week": 8,
+    "question": "In a Sensor Cloud environment, why is a middleware layer often required between Wireless Sensor Networks (WSNs) and cloud services?",
+    "options": [
+      "To increase the physical size of sensor nodes",
+      "To abstract heterogeneous sensors and provide cloud-accessible sensor resources",
+      "To eliminate all communication between sensors",
+      "To replace the sensing function of WSN nodes"
+    ],
+    "answer": "To abstract heterogeneous sensors and provide cloud-accessible sensor resources"
+  },
+  {
+    "id": 78,
+    "week": 8,
+    "question": "Which architecture is generally BEST suited for applications requiring both low latency and large- scale cloud analytics?",
+    "options": [
+      "IoT Device → Cloud only",
+      "IoT Device → Edge/Fog → Cloud",
+      "IoT Device → Database only",
+      "IoT Device → Hypervisor → Cloud"
+    ],
+    "answer": "IoT Device → Edge/Fog → Cloud"
+  },
+  {
+    "id": 79,
+    "week": 8,
+    "question": "An IoT application sends sensitive sensor data through public networks to a cloud platform. Which mechanism is MOST important for protecting the data during transmission?",
+    "options": [
+      "Data encryption",
+      "Increasing CPU frequency",
+      "Increasing sensor sampling rate",
+      "VM consolidation"
+    ],
+    "answer": "Data encryption"
+  },
+  {
+    "id": 80,
+    "week": 8,
+    "question": "Statement 1: Processing latency-sensitive IoT workloads at an edge node can reduce the communication delay associated with a distant cloud. Statement 2: Edge processing eliminates all network latency because no communication is required.",
+    "options": [
+      "Statement 1 is True and Statement 2 is False",
+      "Statement 2 is True and Statement 1 is False",
+      "Both statements are True",
+      "Both statements are False"
+    ],
+    "answer": "Statement 1 is True and Statement 2 is False"
+  },
+  {
+    "id": 81,
+    "week": 9,
+    "question": "A factory requires machine-level anomaly detection within milliseconds, but it also needs to aggregate data from multiple machines for plant-wide analysis before sending summaries to the cloud. Which placement BEST matches the requirements?",
+    "options": [
+      "All processing in the centralized cloud",
+      "Machine-level processing at the edge and plant-level processing at fog nodes",
+      "All processing directly on individual sensors",
+      "Plant-wide processing exclusively at the cloud"
+    ],
+    "answer": "Machine-level processing at the edge and plant-level processing at fog nodes"
+  },
+  {
+    "id": 82,
+    "week": 9,
+    "question": "A smart-city traffic system receives video streams from hundreds of cameras. Immediate object detection is performed near each camera, regional congestion patterns are analyzed at roadside micro-data centers, and long-term traffic trends are analyzed in the cloud. Which architecture BEST represents this system?",
+    "options": [
+      "Cloud-only architecture",
+      "Fog-only architecture",
+      "Edge–Fog–Cloud architecture",
+      "Edge-only architecture"
+    ],
+    "answer": "Edge–Fog–Cloud architecture"
+  },
+  {
+    "id": 83,
+    "week": 9,
+    "question": "An IoT system performs local filtering before forwarding data to the cloud. Which ordering BEST represents the typical amount of raw data transmitted toward centralized cloud infrastructure, from lowest to highest?",
+    "options": [
+      "Edge processing → Fog processing → Cloud-only processing",
+      "Cloud-only processing → Fog processing → Edge processing",
+      "Fog processing → Cloud-only processing → Edge processing",
+      "Edge processing → Cloud-only processing → Fog processing"
+    ],
+    "answer": "Edge processing → Fog processing → Cloud-only processing"
+  },
+  {
+    "id": 84,
+    "week": 9,
+    "question": "A fog node is running out of memory, but the infrastructure allows additional RAM and CPU resources to be assigned to that same node. Which scalability approach is being used?",
+    "options": [
+      "Horizontal scalability",
+      "Temporal scalability",
+      "Geographic scalability",
+      "Vertical scalability"
+    ],
+    "answer": "Vertical scalability"
+  },
+  {
+    "id": 85,
+    "week": 9,
+    "question": "Which statement BEST describes the division of responsibilities in a hierarchical Edge–Fog–Cloud architecture?",
+    "options": [
+      "Edge handles global optimization, while Cloud handles sensor-level decisions",
+      "Edge handles immediate local actions, Fog coordinates regional resources, and Cloud performs global orchestration",
+      "All three layers perform exactly the same tasks",
+      "Only the Cloud is allowed to make decisions"
+    ],
+    "answer": "Edge handles immediate local actions, Fog coordinates regional resources, and Cloud performs global orchestration"
+  },
+  {
+    "id": 86,
+    "week": 9,
+    "question": "A video analytics application requires its first-stage processing to occur within 10 ms of the camera, while its model-training component requires substantial computational resources. Which placement is MOST appropriate?",
+    "options": [
+      "Both components on a distant cloud server",
+      "Both components on the smallest IoT device",
+      "First-stage processing at the edge and model training in the cloud",
+      "First-stage processing only in the cloud and training at the edge"
+    ],
+    "answer": "First-stage processing at the edge and model training in the cloud"
+  },
+  {
+    "id": 87,
+    "week": 9,
+    "question": "A mobile device is moving rapidly between coverage areas of different edge servers while executing an offloaded task. Which issue becomes MOST critical?",
+    "options": [
+      "Static CPU allocation",
+      "Service migration and task continuity during handover",
+      "Cloud storage capacity",
+      "VM image size only"
+    ],
+    "answer": "Service migration and task continuity during handover"
+  },
+  {
+    "id": 88,
+    "week": 9,
+    "question": "A cloud application requires additional resources because its primary CSP has insufficient capacity. A broker identifies a suitable secondary CSP and negotiates the required service conditions. Which cloud-federation function is being performed?",
+    "options": [
+      "Resource federation and inter-provider service provisioning",
+      "VM deletion within a single CSP",
+      "Local container orchestration",
+      "Hardware virtualization"
+    ],
+    "answer": "Resource federation and inter-provider service provisioning"
+  },
+  {
+    "id": 89,
+    "week": 9,
+    "question": "Why is trust management particularly important in a cloud federation?",
+    "options": [
+      "Resources and services may be obtained from independent providers with different security and reliability policies",
+      "All CSPs are automatically controlled by the same organization",
+      "Federation eliminates authentication requirements",
+      "Trust is required only for physical servers"
+    ],
+    "answer": "Resources and services may be obtained from independent providers with different security and reliability policies"
+  },
+  {
+    "id": 90,
+    "week": 9,
+    "question": "Which is the PRIMARY advantage of a Hybrid Cloud Federation for an organization handling sensitive workloads?",
+    "options": [
+      "It eliminates the need for security controls",
+      "It forces all workloads into the public cloud",
+      "It combines private-cloud control for sensitive workloads with public-cloud scalability",
+      "It prevents workload migration between environments"
+    ],
+    "answer": "It combines private-cloud control for sensitive workloads with public-cloud scalability"
+  },
+  {
+    "id": 91,
+    "week": 10,
+    "question": "During live migration of a VM, which condition is most likely to increase the total migration time?",
+    "options": [
+      "Low rate of memory-page modification by the VM",
+      "High rate of memory-page modification during migration",
+      "Increasing the number of CPU cores on the destination host",
+      "Reducing the VM memory size"
+    ],
+    "answer": "High rate of memory-page modification during migration"
+  },
+  {
+    "id": 92,
+    "week": 10,
+    "question": "Which live VM migration technique starts the VM on the destination first and then fetches memory pages from the source on demand as they are accessed?",
+    "options": [
+      "Cold migration",
+      "Pre-copy migration",
+      "Post-copy migration",
+      "Offline image transfer"
+    ],
+    "answer": "Post-copy migration"
+  },
+  {
+    "id": 93,
+    "week": 10,
+    "question": "Which technique is most likely to reduce the total data transferred (and hence the energy used) during pre-copy live migration?",
+    "options": [
+      "Increasing the memory-dirtying rate of the workload",
+      "Compressing and deduplicating memory pages before transfer",
+      "Adding more iterative pre-copy rounds indefinitely",
+      "Disabling dirty-page tracking"
+    ],
+    "answer": "Compressing and deduplicating memory pages before transfer"
+  },
+  {
+    "id": 94,
+    "week": 10,
+    "question": "Which resource management strategy is most important to prevent overload when many edge devices send data to nearby fog nodes?",
+    "options": [
+      "Increasing storage capacity at a single fog node",
+      "Static task allocation",
+      "Load balancing across fog nodes",
+      "Sending all data directly to the cloud"
+    ],
+    "answer": "Load balancing across fog nodes"
+  },
+  {
+    "id": 95,
+    "week": 10,
+    "question": "A Kubernetes cluster has several worker nodes. A newly created Pod must be assigned to an appropriate node based on available resources and scheduling constraints. Which Kubernetes component is primarily responsible for this decision?",
+    "options": [
+      "kubelet",
+      "kube-scheduler",
+      "kube-proxy",
+      "Container registry"
+    ],
+    "answer": "kube-scheduler"
+  },
+  {
+    "id": 96,
+    "week": 10,
+    "question": "Consider the following Docker workflow: Dockerfile → docker build → ______ → docker run Which entity is produced by the docker build operation?",
+    "options": [
+      "Docker volume",
+      "Docker image",
+      "Running container",
+      "Kubernetes Pod"
+    ],
+    "answer": "Docker image"
+  },
+  {
+    "id": 97,
+    "week": 10,
+    "question": "Which of the following correctly describes the roles of Linux namespaces and cgroups in containers?",
+    "options": [
+      "Namespaces provide resource quotas, while cgroups provide process isolation.",
+      "Namespaces provide isolation of processes and system resources, while cgroups control resource usage.",
+      "Both namespaces and cgroups are used only to create Docker images.",
+      "Neither is required for container isolation."
+    ],
+    "answer": "Namespaces provide isolation of processes and system resources, while cgroups control resource usage."
+  },
+  {
+    "id": 98,
+    "week": 10,
+    "question": "A VM has 32 GB of memory and the migration link provides 16 MB/sec of usable throughput. For a non-live (cold) migration where the entire memory is transferred once, what is the approximate transfer time? (Use 1 GB = 2³⁰ bytes, 1 MB = 2²⁰ bytes.)",
+    "options": [
+      "About 15 minutes",
+      "About 34 minutes",
+      "About 1 hour",
+      "About 2 hours"
+    ],
+    "answer": "About 34 minutes"
+  },
+  {
+    "id": 99,
+    "week": 10,
+    "question": "A database container is deleted accidentally. The database files were stored using a Docker named volume rather than only inside the container's writable layer. What happens to the data?",
+    "options": [
+      "The data is automatically deleted with the container.",
+      "The data remains available in the named volume.",
+      "The data is converted into a Docker image.",
+      "The data can only be recovered by restarting the deleted container."
+    ],
+    "answer": "The data remains available in the named volume."
+  },
+  {
+    "id": 100,
+    "week": 10,
+    "question": "Which of the following statements about containers and virtual machines is CORRECT?",
+    "options": [
+      "Containers normally require a separate complete guest operating system for every application.",
+      "Virtual machines and containers always provide identical levels of isolation.",
+      "Containers generally share the host operating system kernel, whereas VMs virtualize a complete machine environment.",
+      "Containers cannot be deployed on virtual machines."
+    ],
+    "answer": "Containers generally share the host operating system kernel, whereas VMs virtualize a complete machine environment."
+  },
+  {
+    "id": 101,
+    "week": 11,
+    "question": "Which capability is the defining feature of Dew computing compared to conventional cloud computing?",
+    "options": [
+      "It requires a permanent high-bandwidth connection to the cloud",
+      "It provides local independence, letting a device store and process data offline and sync with the cloud when connectivity returns",
+      "It eliminates the need for any cloud component",
+      "It performs only data storage and never computation"
+    ],
+    "answer": "It provides local independence, letting a device store and process data offline and sync with the cloud when connectivity returns"
+  },
+  {
+    "id": 102,
+    "week": 11,
+    "question": "A weather-monitoring device installed in a remote mountain region must continue recording and processing measurements for several hours even when the Internet connection is unavailable. Once connectivity is restored, the accumulated data is synchronized with a cloud server. Which computing paradigm best matches this requirement?",
+    "options": [
+      "Edge computing",
+      "Fog computing",
+      "Dew computing",
+      "Centralized cloud computing"
+    ],
+    "answer": "Dew computing"
+  },
+  {
+    "id": 103,
+    "week": 11,
+    "question": "Two users modify the same record independently while their devices are offline. When both devices reconnect, the cloud detects that the two versions conflict. Which mechanism is most directly required to handle this situation?",
+    "options": [
+      "CPU scheduling",
+      "Conflict detection and resolution during synchronization",
+      "Container image creation",
+      "Load balancing"
+    ],
+    "answer": "Conflict detection and resolution during synchronization"
+  },
+  {
+    "id": 104,
+    "week": 11,
+    "question": "Allowing Dew devices to operate offline and modify data independently most directly introduces which challenge?",
+    "options": [
+      "Increased CPU virtualization overhead",
+      "The need to detect and resolve data conflicts when devices reconnect and synchronize",
+      "Permanent loss of all local data",
+      "Inability to ever reach the cloud"
+    ],
+    "answer": "The need to detect and resolve data conflicts when devices reconnect and synchronize"
+  },
+  {
+    "id": 105,
+    "week": 11,
+    "question": "A serverless function has not been invoked for a long period. When the next request arrives, the platform requires additional time to initialize the execution environment. This delay is known as:",
+    "options": [
+      "Warm start",
+      "Cold start",
+      "Cache miss",
+      "Bootstrapping failure"
+    ],
+    "answer": "Cold start"
+  },
+  {
+    "id": 106,
+    "week": 11,
+    "question": "Why are serverless functions typically designed to be stateless?",
+    "options": [
+      "To reduce electricity consumption",
+      "Because local storage is unlimited",
+      "To allow automatic scaling and parallel execution without dependency conflicts",
+      "To avoid using APIs"
+    ],
+    "answer": "To allow automatic scaling and parallel execution without dependency conflicts"
+  },
+  {
+    "id": 107,
+    "week": 11,
+    "question": "A team wants to run a batch job that takes about 45 minutes to complete in a single AWS Lambda invocation. Why is this NOT feasible?",
+    "options": [
+      "Lambda has no internet access",
+      "Lambda enforces a maximum execution timeout of 15 minutes per invocation",
+      "Lambda cannot process batch data",
+      "Lambda functions must always be stateful"
+    ],
+    "answer": "Lambda enforces a maximum execution timeout of 15 minutes per invocation"
+  },
+  {
+    "id": 108,
+    "week": 11,
+    "question": "A serverless application receives 1,000 independent requests simultaneously. The provider can create multiple function instances to process these requests concurrently. Which property of serverless computing makes this possible?",
+    "options": [
+      "Stateful execution",
+      "Horizontal scalability of independent function invocations",
+      "Fixed allocation of one VM per user",
+      "Permanent local storage"
+    ],
+    "answer": "Horizontal scalability of independent function invocations"
+  },
+  {
+    "id": 109,
+    "week": 11,
+    "question": "A research group wants to execute a scientific computation that requires 40 minutes of uninterrupted execution for each task. The chosen FaaS platform imposes a maximum execution time of 15 minutes per invocation. What is the primary problem with using this platform directly?",
+    "options": [
+      "Functions cannot communicate with databases.",
+      "The execution time exceeds the platform's maximum invocation duration.",
+      "FaaS cannot process numerical calculations.",
+      "Serverless functions cannot execute in parallel."
+    ],
+    "answer": "The execution time exceeds the platform's maximum invocation duration."
+  },
+  {
+    "id": 110,
+    "week": 11,
+    "question": "A company needs a managed cloud platform specifically designed for large-scale analytical queries over structured datasets, using distributed processing rather than relying on a single database server. Which service is most appropriate?",
+    "options": [
+      "Amazon Redshift",
+      "Amazon EC2",
+      "AWS Lambda",
+      "Amazon Route 53"
+    ],
+    "answer": "Amazon Redshift"
+  },
+  {
+    "id": 111,
+    "week": 12,
+    "question": "Mobile Cloud Computing (MCC) benefits mobile devices by: 1. Offloading compute-intensive tasks to the cloud 2. Extending effective battery life by reducing on-device processing 3. Guaranteeing zero network latency 4. Providing access to large-scale storage",
+    "options": [
+      "1, 2, and 4 only",
+      "1 and 3 only",
+      "2 and 3 only",
+      "All of the above"
+    ],
+    "answer": "1, 2, and 4 only"
+  },
+  {
+    "id": 112,
+    "week": 12,
+    "question": "A city planning department stores road networks, building locations, GPS coordinates, and satellite images in a cloud-based system for analysis. This is primarily an example of:",
+    "options": [
+      "Mobile Cloud Computing",
+      "Spatial Cloud Computing",
+      "Serverless Computing",
+      "Batch Computing"
+    ],
+    "answer": "Spatial Cloud Computing"
+  },
+  {
+    "id": 113,
+    "week": 12,
+    "question": "Which task is MOST likely to rely on Spatial Cloud Computing?",
+    "options": [
+      "Sorting a company's payroll spreadsheet",
+      "Real-time flood-risk mapping using terrain and rainfall data across a region",
+      "Compiling source code",
+      "Streaming a music playlist"
+    ],
+    "answer": "Real-time flood-risk mapping using terrain and rainfall data across a region"
+  },
+  {
+    "id": 114,
+    "week": 12,
+    "question": "In Cyber-Physical Systems (CPS), real-time feedback between sensors and actuators is essential for:",
+    "options": [
+      "Data archiving",
+      "Closed-loop control",
+      "Static data analysis",
+      "Batch processing"
+    ],
+    "answer": "Closed-loop control"
+  },
+  {
+    "id": 115,
+    "week": 12,
+    "question": "A GPS-enabled taxi periodically records its location as: (x1,y1,t1),(x2,y2,t2),…,(xn,yn,tn) What does this sequence represent?",
+    "options": [
+      "Spatial trajectory",
+      "Spatial database",
+      "Road topology",
+      "Spatial index"
+    ],
+    "answer": "Spatial trajectory"
+  },
+  {
+    "id": 116,
+    "week": 12,
+    "question": "__________ refers to outsourcing location-based sensing or data-collection tasks to a crowd of mobile users who gather data at specific places and times.",
+    "options": [
+      "Spatial trajectory",
+      "Spatial crowdsourcing",
+      "Time series",
+      "Road network graph"
+    ],
+    "answer": "Spatial crowdsourcing"
+  },
+  {
+    "id": 117,
+    "week": 12,
+    "question": "In V2V communication, the primary objective is:",
+    "options": [
+      "Providing internet access to vehicles",
+      "Exchanging safety-critical information such as speed, position, and braking",
+      "Supporting infotainment systems",
+      "Uploading vehicle data to cloud storage"
+    ],
+    "answer": "Exchanging safety-critical information such as speed, position, and braking"
+  },
+  {
+    "id": 118,
+    "week": 12,
+    "question": "A connected-vehicle system where onboard sensors capture data, roadside units preprocess and react locally, and the cloud performs fleet-wide long-term analytics is BEST described as:",
+    "options": [
+      "Cloud-only computing",
+      "Edge computing with no cloud",
+      "An integrated Edge–Fog–Cloud architecture",
+      "A single centralized server"
+    ],
+    "answer": "An integrated Edge–Fog–Cloud architecture"
+  },
+  {
+    "id": 119,
+    "week": 12,
+    "question": "A major benefit of real-time mobility analytics in urban transport systems is:",
+    "options": [
+      "Eliminating the need for traffic laws",
+      "Dynamic traffic signal optimization based on live vehicle density",
+      "Reducing vehicle manufacturing costs",
+      "Preventing all road accidents"
+    ],
+    "answer": "Dynamic traffic signal optimization based on live vehicle density"
+  },
+  {
+    "id": 120,
+    "week": 12,
+    "question": "A multimedia application needs to deliver extremely high-resolution video and augmented-reality content to mobile users. Which 5G service category is most directly suited to this requirement?",
+    "options": [
+      "eMBB",
+      "mMTC",
+      "URLLC",
+      "NFC"
+    ],
+    "answer": "eMBB"
+  }
+]
